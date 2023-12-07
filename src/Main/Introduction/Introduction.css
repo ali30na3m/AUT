@@ -1,0 +1,30 @@
+section{
+    margin-top: 80px;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.wrapper-introduction{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.introduction{
+    padding: 5px 20px;
+    color: #27272a;
+    transition: all 250ms;
+}
+.introduction:hover{
+    background-color: #f3f4f6;
+    border-left: 5px solid #d1d5db;
+    /* color: #0ea5e9; */
+}
+.introduction > p:hover{
+    color: #27272a;
+}
+.introduction > p{
+    transition: all 250ms;
+}

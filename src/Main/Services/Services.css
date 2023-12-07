@@ -1,0 +1,30 @@
+section{
+    margin-top: 80px;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.service{
+    background-color: #f3f4f6;
+    display: flex;
+    flex-direction: column;
+
+}
+.services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 30px;
+}
+.int-ser{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    padding-bottom: 50px;
+}
+

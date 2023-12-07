@@ -1,0 +1,111 @@
+.ContactUs{
+    background-color: #f1f5f9;
+    padding-bottom: 40px;
+}
+.header-contact-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 40px;
+}
+.wrapper-contact{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 100px;
+}
+.job-contact{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 2px solid #e5e7eb;
+    padding: 10px 20px;
+    width: 35%;
+}
+.job-contact img{
+    width: 100%;
+    padding: 10px;
+}
+.detail-contact-job{
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+.detail-contact-job i{
+    font-size: 20px;
+    color: #38bdf8;
+    background-color: #e2e8f0;
+    padding: 6px;
+    border-radius: 100%;
+}
+.info-job-contact{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.info-job-contact p{
+    color: #64748b;
+}
+
+.client-contact{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px
+}
+
+.Emname-inpt{
+    display: flex;
+    justify-content: space-between;
+}
+.inpt{
+    outline: none;
+    border: 2px solid #e2e8f0;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+.subject-inpt{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+.username-inpt{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.Email-inpt{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.message-area{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.message-area textarea{
+    border: 2px solid #e5e7eb;
+    outline: none;
+}
+.width-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.btn-client{
+    color: #e5e7eb;
+    background-color: #3b82f6;
+    padding: 15px 20px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 300;
+}

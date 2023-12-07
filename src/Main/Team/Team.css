@@ -1,0 +1,29 @@
+.unit-team{
+    background-image: linear-gradient(rgba(243 , 244 , 246 , 0.65) , rgba(243 , 244 , 246 , 0.65)) , url(../../../public/img/team-bg.jpg);
+    background-size: cover;
+    margin-top: 200px;
+    padding-top: 40px;
+    padding-bottom: 140px;
+}
+.wrap-Team{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.header-Team{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.header-Team p{
+    text-align: center;
+    padding: 0 90px;
+}
+.row-Team{
+    display: flex;
+    gap: 50px;
+}

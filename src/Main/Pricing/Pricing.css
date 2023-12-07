@@ -1,0 +1,40 @@
+.wrapper-color{
+    background-color: #f1f5f9;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.container{
+
+}
+.header-pricing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.header-pricing p{
+    text-align: center;
+}
+.prices{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+.advaned-wrapper{
+    background-color: #0284c7;
+    position: absolute;
+    top: 17px;
+    right: -30px;
+    transform: rotate(45deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    width: 135px;
+}
+.advaned-wrapper a{
+    color: white;
+}

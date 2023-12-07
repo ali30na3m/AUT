@@ -1,0 +1,30 @@
+.call{
+    margin-top: 80px;
+    background-image: url('../../../public/img/cta-bg.jpg');
+}
+.wrapper-call{
+    padding: 30px;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+.des-call{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.btn-call {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.btn-call > button {
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    background-color: #38bdf8;
+    color: white;
+    flex-basis: 20%;
+}

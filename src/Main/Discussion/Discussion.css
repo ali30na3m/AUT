@@ -1,0 +1,20 @@
+.AQ{
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.header-AQ{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.Ask{
+    display: inline;
+
+}
+.chevron-down{
+    width: 20px;
+    height: 20px;
+}
+.list-ask{
+    display: flex;
+    align-items: center;
+}

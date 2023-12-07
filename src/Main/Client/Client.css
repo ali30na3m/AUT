@@ -1,0 +1,14 @@
+.header-client{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.header-client p {
+    text-align: center;
+}
+.clients{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+}

@@ -1,0 +1,51 @@
+.service-detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 30px 10px;
+    gap: 20px;
+}
+.c1{
+    transition: all 150ms;
+}
+.c2{
+    transition: all 150ms;
+}
+.c3{
+    transition: all 150ms;
+}
+.c4{
+    transition: all 150ms;
+}
+.c1:hover{
+    border-bottom:3px solid #ec4899;
+}
+.c2:hover{
+    border-bottom:3px solid #5eead4;
+}
+.c3:hover{
+    border-bottom:3px solid #22c55e;
+}
+.c4:hover{
+    border-bottom:3px solid #2563eb;
+}
+.service-detail > p {
+    text-align: center;
+} 
+.service-detail > i {
+    font-size: 40px;
+}
+.bxl-dribbble{
+    color: #ec4899;
+}
+.bx-file{
+    color: #5eead4;
+}
+.bx-tachometer{
+    color: #22c55e;
+}
+.bx-world{
+    color: #2563eb;
+}

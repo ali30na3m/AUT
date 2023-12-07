@@ -1,0 +1,11 @@
+.img-company{
+    border: 3px solid #e5e7eb;
+    padding: 10px 80px;
+    width: 100%;
+    height: 110px;
+    opacity: 0.3;
+    transition: all 150ms;
+}
+.img-company:hover{
+    opacity: 1;
+}

@@ -1,0 +1,132 @@
+footer{
+    border-top: 2px solid #e5e7eb;
+}
+.wrapper-f{
+    margin-top: 40px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    color: #94a3b8;
+}
+.info-link{
+    display: flex;
+    width: 70%;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    width: 35%;
+    gap: 25px;
+}
+.address{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.address h2{
+    color: #3f3f46;
+}
+.link h3{
+    color: #3f3f46;
+}
+.contact-email h2{
+    color: #3f3f46;
+}
+.contact-web{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.phone-cweb{
+
+}
+.Email-cweb{
+
+}
+.start-bold{
+    font-weight: 900;
+    color: #3f3f46;
+}
+.social-media{
+    display: flex;
+    align-items: start;
+    gap: 15px;
+}
+.social-media i{
+    font-size: 30px;
+    background-color: #e2e8f0;
+    border-radius: 100%;
+    padding: 10px;
+}
+.link{
+    display: flex;
+    gap: 40px;
+}
+.chevron-right{
+    width: 20px;
+    height: 20;
+    color: #06b6d4;
+}
+.useful-link li{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.useful-link{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+.our-services{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+.our-services li{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.contact-email{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    width: 30%;
+}
+.email-subscribe{
+    display: flex;
+}
+.email-subscribe input{
+    outline: none;
+    border: 2px solid #e2e8f0;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+.email-subscribe button{
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: #06b6d4;
+    padding: 10px 15px;
+    font-size: 16px;
+}
+
+.copy-right{
+    border-top: 2px solid #e2e8f0;
+    background-color: #f1f5f9;
+    margin-top: 40px;
+    padding: 40px 0;
+
+}
+.wrapper-copy-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

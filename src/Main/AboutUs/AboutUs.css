@@ -1,0 +1,46 @@
+section{
+    margin-top: 80px;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.wrapper-about-us{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d4d4d8;
+    padding: 25px 15px;
+    border-radius: 8px;
+}
+.about-us-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 130%;
+}
+.about-us-left > img{
+    width: 580px;
+    height: 400px;
+    border-radius: 8px;
+}
+.about-us-right{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-basis: 100%;
+}
+.checks{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.check-about-us{
+    display: block;
+}
+.check-about-us > svg{
+    width: 20px;
+    height: 20px;
+    color: #16a34a;
+}

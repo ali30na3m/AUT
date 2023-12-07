@@ -1,0 +1,17 @@
+.header-Testimonials{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.header-Testimonials p {
+    text-align: center;
+}
+.body-testimonials{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}

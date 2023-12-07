@@ -1,0 +1,52 @@
+.Tw{
+    position: relative;
+}
+.Tw img{
+    width: 350px;
+    border-radius: 16px;
+}
+.ab-Tw{
+    position: absolute;
+    top: 300px;
+    left: 15px;
+    right: 15px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 16px;
+    padding: 10px 15px;
+    text-align: center;
+}
+.diff{
+    display: inline-block;
+    width: 30%;
+    height: 2px;
+    background-color: #d1d5db;
+    transition: all 1000ms;
+}
+
+.social-team{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 10px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 1000ms;
+}
+.social-team i{
+    font-size: 20px;
+}
+
+.Tw:hover{
+
+    .diff{
+        width: 40%;
+    }
+    .social-team{
+        display: flex;
+        visibility: visible;
+        opacity: 0.6;
+    }
+
+}
