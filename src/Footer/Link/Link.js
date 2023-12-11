@@ -1,26 +1,27 @@
-import React from 'react'
+import React , {useState} from 'react'
 import Footerlink from './Footerlink/Footerlink'
 import List from './List/List'
 
 export default function Link() {
-
-  let listTitle = [
+  const [listTitle1 , setListTitl1] = useState([
     {title : 'Home'},
     {title : 'About Us'},
     {title : 'Services'},
     {title : 'Terms of services'},
     {title : 'privacy policy'},
+  ])
+  const [listTitle2 , setListTitle2] = useState([
     {title : 'Web Design'},
     {title : 'Web Development'},
     {title : 'Product Management'},
     {title : 'Marketing'},
     {title : 'Graphic Design'},
-  ]
+  ])
 
-  let headerLinks =[
+  const [headerLinks , setHeaderLinks] = useState([
     {titleHeader: 'Useful Links'},     
-    {titleHeader: 'Our Services'},     
-  ]
+    {titleHeader: 'Our Services'}, 
+  ])
   
 
   return (
@@ -28,20 +29,20 @@ export default function Link() {
 
         <Footerlink {...headerLinks[0]}>
           <ul className="useful-link">
-              <List {...listTitle[0]}></List>
-              <List {...listTitle[1]}></List>
-              <List {...listTitle[2]}></List>
-              <List {...listTitle[3]}></List>
-              <List {...listTitle[4]}></List>
+            {
+              listTitle1.map(item =>(
+                <List {...item} />
+              ))
+            }
           </ul>
         </Footerlink>
         <Footerlink {...headerLinks[1]}>
           <ul className="useful-link">
-              <List {...listTitle[5]}></List>
-              <List {...listTitle[6]}></List>
-              <List {...listTitle[7]}></List>
-              <List {...listTitle[8]}></List>
-              <List {...listTitle[9]}></List>
+          {
+              listTitle2.map(item =>(
+                <List {...item} />
+              ))
+            }
           </ul>
         </Footerlink>
 

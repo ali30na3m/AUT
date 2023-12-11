@@ -1,9 +1,11 @@
 .Tw{
     position: relative;
+    transition: all 3000ms;
 }
 .Tw img{
     width: 350px;
     border-radius: 16px;
+    transition: all 3000ms;
 }
 .ab-Tw{
     position: absolute;
@@ -15,6 +17,7 @@
     border-radius: 16px;
     padding: 10px 15px;
     text-align: center;
+    transition: all 3000ms;
 }
 .diff{
     display: inline-block;
@@ -25,10 +28,9 @@
 }
 
 .social-team{
-    display: none;
+    
     align-items: center;
     justify-content: center;
-    margin-top: 40px;
     gap: 10px;
     opacity: 0;
     visibility: hidden;
@@ -36,15 +38,18 @@
 }
 .social-team i{
     font-size: 20px;
+    transition: all 3000ms;
 }
 
 .Tw:hover{
-
+    transition: all 3000ms;
     .diff{
         width: 40%;
+        transition: all 3000ms;
     }
     .social-team{
         display: flex;
+        margin-top: 40px;
         visibility: visible;
         opacity: 0.6;
     }

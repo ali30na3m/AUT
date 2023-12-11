@@ -1,4 +1,3 @@
-import Link from '../../../Footer/Link/Link'
 import './TeamMember.css'
 
 export default function TeamMember({src , name , job}) {
