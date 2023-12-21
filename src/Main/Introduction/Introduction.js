@@ -16,9 +16,9 @@ function Introduction () {
         let newIntro = introduction.find(item => {
             return item.id === id
         }) 
-        setimgSRC(() => newIntro.src)
+        setimgSRC(newIntro.src)
         introduction.filter(item => {
-            item.color = false
+            return item.color = false
         })
         newIntro.color = !newIntro.color 
     }

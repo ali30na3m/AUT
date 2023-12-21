@@ -1,14 +1,14 @@
 import './Product.css'
 
 
-export default function Product({src , h3Name , spanName}) {
+export default function Product(props) {
   return (
     <div class="product ">
-        <img src={src}></img>
+        <img src={props.src}></img>
         <div class="wrapper-blur">
             <div class="up">
-                <h3>{h3Name}</h3>
-                <span>{spanName}</span>
+                <h3>{props.h3Name}</h3>
+                <span>{props.spanName}</span>
             </div>
             <div class="bottom">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="">
