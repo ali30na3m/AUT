@@ -14,7 +14,22 @@
     width: 20px;
     height: 20px;
 }
+.chevron-up{
+    width: 20px;
+    height: 20px;
+}
 .list-ask{
+    width: max-content;
     display: flex;
-    align-items: center;
+    align-items: stretch;
+    cursor: pointer;
+}
+.handleDesc{
+    padding-left: 50px;
+}
+.list-ask:hover{
+    color: #3b82f6;
+}
+.highlightDesc{
+    color: #3b82f6;
 }

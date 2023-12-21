@@ -11,4 +11,12 @@ let porfolio = [
     { id: 9, src: "img/portfolio/portfolio-9.jpg", h3Name: "APP", spanName: "App 9", category: 'App' },
 ]
 
-export {porfolio}
+let Question = [
+    { id: 1 , title : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum.' , desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ipsam debitis error eligendi quasi impedit officia repellendus accusamus!' },
+    { id: 2 , title : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum.' , desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ipsam debitis error eligendi quasi impedit officia repellendus accusamus!' },
+    { id: 3 , title : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum.' , desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ipsam debitis error eligendi quasi impedit officia repellendus accusamus!' },
+    { id: 4 , title : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum.' , desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ipsam debitis error eligendi quasi impedit officia repellendus accusamus!' },
+    { id: 5 , title : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum.' , desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ipsam debitis error eligendi quasi impedit officia repellendus accusamus!' },
+]
+
+export { porfolio, Question }
